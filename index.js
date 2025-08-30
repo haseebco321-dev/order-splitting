@@ -38,8 +38,8 @@ const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET;
 // SKU Mapping Configuration
 // Define which bundle SKUs should be split into component SKUs
 const skuMappings = {
-  'CANDLE_BUNDLE': [
-    { sku: 'CANDLE_BUNDLE', quantity: 1, title: 'The Floating Candles – Safe Flameless Candle Set' },
+  'CANDLE_BATTERY_BUNDLE': [
+    { sku: 'CANDLE_BUNDLE', quantity: 1, title: 'The Original Floating Candles™' },
     { sku: 'BATTERY_ITEM', quantity: 1, title: 'Energizer AAA Batteries, Max Triple A Max Battery Alkaline, 24 Count' }
   ],
   // Add more bundle mappings as needed
